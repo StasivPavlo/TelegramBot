@@ -21,7 +21,7 @@ async def process_start_command(message: types.Message):
 @dp.message_handler()
 async def echo_message(msg: types.Message):
     if msg == 'hello':
-        await msg.reply("world")
+        await msg.reply("world ")
     elif msg == 'world':
         await msg.reply("hello")
     else:
