@@ -10,7 +10,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['help'])
 async def process_help_command(message: types.Message):
-    await message.reply("fffffffffffff")
+    await message.reply("fffffff")
 
 
 @dp.message_handler(commands=['start'])
